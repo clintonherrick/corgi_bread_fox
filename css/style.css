@@ -1,0 +1,82 @@
+div {
+  background: url("../corgi.jpg");
+  background-size: cover;
+  position: relative;
+  float: center;
+  width: 1280px;
+  height: 853px;
+}
+
+.fox {
+  background: url("../fox.jpg");
+  background-size: cover;
+  position: relative;
+  float: center;
+  width: 1280px;
+  height: 853px;
+}
+
+.bread {
+  background: url("../bread.jpg");
+  background-size: cover;
+  position: relative;
+  float: center;
+  width: 1280px;
+  height: 853px;
+}
+
+p {
+  font-family: Impact;
+  font-size: 60px;
+  color: white;
+  text-shadow: -1px 0 2px black, 0 1px 2px black, 1px 0 2px black, 0 -1px 2px black;
+}
+
+#top {
+  text-align: center;
+  cursor: pointer;
+}
+
+#top:hover{
+  text-align: center;
+  background-color: #FFE5B4;
+  color: #C35817;
+  cursor: pointer;
+}
+
+#top:active{
+  text-align: center;
+  background-color: #C35817;
+  color: #FFE5B4;
+  cursor: pointer;
+}
+
+#bottom {
+  text-align: center;
+  margin-top: 700px;
+  cursor: pointer;
+}
+
+#bottom:hover{
+  text-align: center;
+  background-color: #FFE5B4;
+  color: #C35817;
+  cursor: pointer;
+}
+
+#bottom:active{
+  text-align: center;
+  background-color: #C35817;
+  color: #FFE5B4;
+  cursor: pointer;
+
+}
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
